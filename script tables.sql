@@ -4,8 +4,8 @@ CREATE TABLE cliente (
     tipo CHAR(2) ,
     email VARCHAR(40) UNIQUE,
     dt_nasc DATE,
-    cpf VARCHAR(11) NULL,
-    cnpj VARCHAR(20) NULL,
+    cpf VARCHAR(11) UNIQUE,
+    cnpj VARCHAR(20) UNIQUE,
     contato VARCHAR(11),
     
     CONSTRAINT chk_tipo CHECK (tipo IN ('PJ', 'PF'))
