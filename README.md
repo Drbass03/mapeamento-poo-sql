@@ -8,7 +8,7 @@ Este repositório contém um trabalho acadêmico cujo objetivo é praticar a tra
 - Treinar a criação de **procedures, triggers e funções** no SQL Server como forma de praticar **lógica de programação e blocos de controle** (IF, CASE, WHILE, etc.).
 
 ## Observações Importantes
-- O uso de **procedures** neste projeto é **apenas para fins didáticos**.  
+- O uso de **procedures** e **triggers** neste projeto é **apenas para fins didáticos**.  
 - Em cenários reais, **regras de negócio, cálculos e validações** costumam ser implementados na camada de aplicação.  
 - O banco de dados é utilizado aqui como ferramenta de aprendizado para **controle de fluxo e manipulação de dados**.  
 
