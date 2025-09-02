@@ -1,6 +1,6 @@
-# Projeto: POO para DER (Code First)
+# Projeto: POO para DER
 
-Este repositório contém um trabalho acadêmico cujo objetivo é praticar a transição entre **Programação Orientada a Objetos (POO)** e o **Modelo Entidade-Relacionamento (DER)**, utilizando a abordagem **Code First**.
+Este repositório contém um trabalho acadêmico cujo objetivo é praticar a transição entre **Programação Orientada a Objetos (POO)** e o **Modelo Entidade-Relacionamento (DER)**
 
 ## Objetivos do Projeto
 - Demonstrar como classes em POO podem ser mapeadas para tabelas em um banco de dados relacional.
