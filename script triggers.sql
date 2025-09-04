@@ -1,3 +1,6 @@
+--Trigger responsável por preencher o tipo de cliente (Pessoa Física ou Jurídica). Baseando-se em qual campo foi preenchido no momento do cadastro, controlando 
+portanto o insert
+
 CREATE TRIGGER TRG_preencheTipo 
 ON cliente
 AFTER INSERT, UPDATE 
@@ -38,6 +41,8 @@ BEGIN
     COMMIT
 END
 
+        
+--Esta trigger atualiza o valor total do pedido buscando na tabela itens_pedido os produtos relacionados a ele
 
 CREATE TRIGGER TRG_total_pedido
 ON item_pedido  
