@@ -1,3 +1,5 @@
+--Seq criada para simular a geração de novas notas a medida em que novos pedidos são aprovados.
+
 CREATE SEQUENCE seq_numeroNF
     START WITH 2025001
     INCREMENT BY 1;
@@ -5,6 +7,10 @@ CREATE SEQUENCE seq_numeroNF
 CREATE SEQUENCE seq_serieNF
     START WITH 1
     INCREMENT BY 1;
+
+
+-- Procedure responsável por gerar a nota fiscal, a partir do recebimento dos parametros: id do pedido, valor de frete e transportador responsável
+pela entrega
 
 CREATE PROCEDURE gerar_NF 
     @id_pedido INT,  
