@@ -131,7 +131,6 @@ public class ItemNotaFiscal {
     private Produto produto;
     private int quantidade;
     private BigDecimal precoUnitario;
-    private BigDecimal valorImpostos;
     private BigDecimal subtotal;
 
     public BigDecimal calcularSubtotal() {
