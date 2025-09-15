@@ -1,5 +1,5 @@
 --Trigger responsável por preencher o tipo de cliente (Pessoa Física ou Jurídica). Baseando-se em qual campo foi preenchido no momento do cadastro, controlando 
-portanto o insert
+--portanto o insert
 
 CREATE TRIGGER TRG_preencheTipo 
 ON cliente
