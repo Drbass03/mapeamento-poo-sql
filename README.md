@@ -15,7 +15,7 @@ Este repositório contém um trabalho acadêmico cujo objetivo é praticar a tra
 ## Estrutura
 - **/DER** → Diagramas e scripts relacionados ao modelo entidade-relacionamento.  
 - **/SQL** → Procedures, triggers, funções e consultas SQL criadas para fins de treinamento.  
-- **/POO** → Código em POO utilizado como ponto de partida para o mapeamento Code First.  
+- **/POO** → Código em POO utilizado como ponto de partida para a criação do banco de dados.  
 
 ## Tecnologias Utilizadas
 - SQL Server  
