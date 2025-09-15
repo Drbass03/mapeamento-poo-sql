@@ -10,7 +10,7 @@ Este repositório contém um trabalho acadêmico cujo objetivo é praticar a tra
 ## Observações Importantes
 - O uso de **procedures** e **triggers** neste projeto é **apenas para fins didáticos**.  
 - Em cenários reais, **regras de negócio, cálculos e validações** costumam ser implementados na camada de aplicação.  
-- O banco de dados é utilizado aqui como ferramenta de aprendizado para **controle de fluxo e manipulação de dados**.  
+- Triggers e procedures são utilizadas aqui como ferramenta de aprendizado para **controle de fluxo e manipulação de dados**.  
 
 ## Estrutura
 - **/DER** → Diagramas e scripts relacionados ao modelo entidade-relacionamento.  
