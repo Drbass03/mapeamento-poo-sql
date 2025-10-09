@@ -9,8 +9,8 @@ CREATE SEQUENCE seq_serieNF
     INCREMENT BY 1;
 
 
--- Procedure responsável por gerar a nota fiscal, a partir do recebimento dos parametros: id do pedido, valor de frete e transportador responsável
-pela entrega
+/* Procedure responsável por gerar a nota fiscal, a partir do recebimento dos parametros: id do pedido, valor de frete e transportador responsável
+pela entrega */
 
 CREATE PROCEDURE gerar_NF 
     @id_pedido INT,  
