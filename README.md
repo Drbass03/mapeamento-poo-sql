@@ -1,4 +1,4 @@
-# Projeto: Mapeando Objetos
+# CASE: Mapeando Objetos
 
 Este repositório contém um trabalho acadêmico cujo objetivo é praticar a transição entre **Programação Orientada a Objetos (POO)** e o **Modelo Entidade-Relacionamento (DER)**
 
